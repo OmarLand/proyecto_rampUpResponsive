@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>"El ahorcado 2.0"</title>
+</head>
+<body>
+
+    <!-- Instrucciones del juego -->
+    <div id="atencion">
+        <p id="instruc">¡Instrucciones!</p>
+        <p>Tienes 5 intentos para adivinar el animal oculto, si miras con atención verás algunas pistas en el campo. <br> ¡Que te diviertas! </p>
+    </div>
+
+    <!-- <div id="ganaste">
+        <p>¡Enhorabuena! <br> ¡Haz ganado el Juego!</p>
+    </div> -->
+
+    <!-- Contenedor principal del juego -->
+    <section id="contenedor">
+
+        <section class="header">
+            <h1><p id="bienvenido">Bienvenido</p></h1>
+            <p class="header">Al divertido juego de "El ahorcado 2.0"</p>
+        </section>
+
+        <section id="text-bottom" >
+            <form>
+                <p>Adivina el animal - Introduce una letra.</p>
+                <input type="text" name="letter" id="letter" maxlength="1"> <br>
+
+                <input type="button" value="¡Evaluar!" id="btn-check">
+                <br>
+                <p id="animalRevealed"></p>
+            </form>
+        </section>
+
+        <section id="output">
+
+            <section id = "img-column">
+                <img class="dibujito spaceImages" src="./img/caballo.png" alt="">
+                <img class="dibujito spaceImages" src="./img/cerdo.png" alt="">
+                <img class="dibujito spaceImages" src="./img/elefante.png" alt="">
+                <img class="dibujito spaceImages" src="./img/gatito.png" alt="">
+                <img class="dibujito spaceImages" src="./img/jirafa.png" alt="">
+            </section>
+
+            <section id="image"></section>
+
+            <section id="img-column">
+                <img class="dibujito spaceImages" src="./img/leon.png" alt="">
+                <img class="dibujito spaceImages" src="./img/pajaro.png" alt="">
+                <img class="dibujito spaceImages" src="./img/perrito.png" alt="">
+                <img class="dibujito spaceImages" src="./img/raton.png" alt="">
+                <img class="dibujito spaceImages" src="./img/tortuga.png" alt="">
+            </section>
+
+
+        </section>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

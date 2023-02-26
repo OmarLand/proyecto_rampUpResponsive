@@ -1,0 +1,475 @@
+
+/* Responsive para mobiles hasta 465 pixeles */
+@media screen, ( max-width: 465px ) {
+
+    body{
+        background-image      : url( ./img/fondo_3.jpg );
+        /* background-image: linear-gradient(to right top, #0353cc, #285cd4, #3b66db, #4b6fe3, #5979eb); */
+        background-position   : center center;
+        background-repeat     : no-repeat;
+        background-attachment : fixed;
+        background-size       : cover;
+
+    }
+
+    #atencion{
+        background              : rgba( 184, 233, 134, 0.25 );
+        backdrop-filter         : blur( 1px );
+        -webkit-backdrop-filter : blur( 1px );
+        box-shadow              : 5px 5px 5px black;
+        border                  : 1px solid rgba( 255, 255, 255, 0.18 );
+        border-radius           : 20px;
+        width                   : 80%;
+        text-align              : center;
+        display                 : flex;
+        flex-direction          : column;
+        margin                  : 40px;
+        margin-top              : 5px;
+        padding                 : 1px;
+
+    }
+
+    #instruc {
+        color         : red;
+        margin-bottom : 2px;
+    }
+
+     @font-face {
+        font-family  : miPrueba;
+        src          : url( ./fonts/Shantell_Sans/static/ShantellSans-Bold.ttf );
+        margin-top   : 1px;
+    }
+
+    h1{
+        font-size   : 70px;
+        font-family : miPrueba;
+    }
+
+    h1 #bienvenido{
+        color                     : black;
+        animation-name            : welcomeAnimated;
+        animation-duration        : 6s;
+        animation-iteration-count : infinite;
+        margin-top                : -70px;
+        text-align                : center;
+        font-size                 : 50px;
+    }
+
+    @keyframes welcomeAnimated {
+        0%   { color: black   }
+        25%  { color: #598EE5 }
+        50%  { color: #7559E5 }
+        75%  { color: #EE5DA9 }
+        80%  { color: brown }
+        100% { color: black   }
+    }
+
+    p{
+        font-family : miPrueba;
+        font-size   : 13px;
+    }
+
+    .header {
+        font-family : miPrueba;
+        margin-top  : -70px;
+        text-align  : center;
+    }
+
+    #contenedor{
+        align-items    : center;
+        text-align     : center;
+        flex-direction : column;
+        margin-top     : 43px;
+
+    }
+
+    #text-bottom{
+        text-align  : center;
+        margin-top  : -8px;
+        margin      : -10px;
+    }
+
+     #letter{
+        border-radius : 10px;
+        box-shadow    : 5px 5px 5px black;
+        text-align    : center;
+    }
+
+    #btn-check{
+        margin-top    : 20px;
+        margin-bottom : 5px;
+
+    }
+
+    #output{
+        display         : flex;
+        flex-direction  : row;
+        justify-content : space-around;
+        margin          : 1px;
+    }
+
+
+    #img-column{
+        display        : flex;
+        flex-direction : column;
+        margin-top     : 30px;
+        
+    }
+
+    /* Podré quitar oportunamente las lineas negras */
+    #image{
+        width                    : 250px;
+        height                   : 350px;
+        border                   : 1px solid black;
+        border-radius            : 20px;
+        padding-top              : 5px;
+        margin-left              : 20px;
+        margin-right             : 20px;
+        background               : rgba( 106, 216, 255, 0.25 );
+        box-shadow               : 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter          : blur( 1px );
+        -webkit-backdrop-filter  : blur( 1px );
+        box-shadow               : 5px 5px 5px black;
+
+    }
+
+    #animalRevealed{
+        margin-top       : 0px;
+        font-size        : 25px;
+    }
+
+
+    .dibujito{
+
+        display                   : flex;
+        align-self                : center;
+        width                     : 50px;
+        height                    : 60px;
+        animation-name            : dibujitoAnimated;
+        animation-duration        : 5s;
+        animation-iteration-count : infinite;
+    }
+
+    /* @keyframes dibujitoAnimated {
+        0%   { width : 50px; heigth: 60px }
+        50%  { width : 60px; heigth: 80px }
+        100% { width : 50px; heigth: 60px }
+    } */
+
+    .spaceImages{
+        padding-bottom: 3px;
+    }
+
+
+}
+
+/* Responsive para tablets desde 466px */
+@media ( min-width: 466px ) {
+
+    body{
+        background-image      : url( ./img/fondo_3.jpg );
+        /* background-image: linear-gradient(to right top, #0353cc, #285cd4, #3b66db, #4b6fe3, #5979eb); */
+        background-position   : center center;
+        background-repeat     : no-repeat;
+        background-attachment : fixed;
+        background-size       : cover;
+
+    }
+
+    #atencion{
+        background              : rgba( 184, 233, 134, 0.25 );
+        backdrop-filter         : blur( 1px );
+        -webkit-backdrop-filter : blur( 1px );
+        box-shadow              : 5px 5px 5px black;
+        border                  : 1px solid rgba( 255, 255, 255, 0.18 );
+        border-radius           : 20px;
+        width                   : 80%;
+        text-align              : center;
+        display                 : flex;
+        flex-direction          : column;
+        margin                  : 40px;
+        margin-top              : 5px;
+        padding                 : 1px;
+
+    }
+
+    #instruc {
+        color         : red;
+        margin-bottom : 2px;
+    }
+
+     @font-face {
+        font-family  : miPrueba;
+        src          : url( ./fonts/Shantell_Sans/static/ShantellSans-Bold.ttf );
+        margin-top   : 1px;
+    }
+
+    h1{
+        font-size   : 70px;
+        font-family : miPrueba;
+    }
+
+    h1 #bienvenido{
+        color                     : black;
+        animation-name            : welcomeAnimated;
+        animation-duration        : 6s;
+        animation-iteration-count : infinite;
+        margin-top                : -70px;
+        text-align                : center;
+        font-size                 : 50px;
+    }
+
+    @keyframes welcomeAnimated {
+        0%   { color: black   }
+        25%  { color: #598EE5 }
+        50%  { color: #7559E5 }
+        75%  { color: #EE5DA9 }
+        80%  { color: brown }
+        100% { color: black   }
+    }
+
+    p{
+        font-family : miPrueba;
+        font-size   : 13px;
+    }
+
+    .header {
+        font-family : miPrueba;
+        margin-top  : -70px;
+        text-align  : center;
+    }
+
+    #contenedor{
+        align-items    : center;
+        text-align     : center;
+        flex-direction : column;
+        margin-top     : 43px;
+
+    }
+
+    #text-bottom{
+        text-align  : center;
+        margin-top  : -8px;
+        margin      : -10px;
+    }
+
+     #letter{
+        border-radius : 10px;
+        box-shadow    : 5px 5px 5px black;
+        text-align    : center;
+    }
+
+    #btn-check{
+        margin-top    : 20px;
+        margin-bottom : 5px;
+
+    }
+
+    #output{
+        display         : flex;
+        flex-direction  : row;
+        justify-content : space-around;
+        margin          : 1px;
+    }
+
+
+    #img-column{
+        display        : flex;
+        flex-direction : column;
+        margin-top     : 30px;
+        
+    }
+
+    /* Podré quitar oportunamente las lineas negras */
+    #image{
+        width                    : 300px;
+        height                   : 350px;
+        border                   : 1px solid black;
+        border-radius            : 20px;
+        padding-top              : 5px;
+        margin-left              : 20px;
+        margin-right             : 20px;
+        background               : rgba( 106, 216, 255, 0.25 );
+        box-shadow               : 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter          : blur( 1px );
+        -webkit-backdrop-filter  : blur( 1px );
+        box-shadow               : 5px 5px 5px black;
+
+    }
+
+    #animalRevealed{
+        margin-top       : 0px;
+        font-size        : 25px;
+    }
+
+    /* TO-DO */
+    .dibujito{
+
+        display                   : flex;
+        align-self                : center;
+        width                     : 70px;
+        height                    : 80px;
+        animation-name            : dibujitoAnimated;
+        animation-duration        : 5s;
+        animation-iteration-count : infinite;
+    }
+
+    /* @keyframes dibujitoAnimated {
+        0%   { width : 50px; heigth: 60px }
+        50%  { width : 60px; heigth: 80px }
+        100% { width : 50px; heigth: 60px }
+    } */
+
+    .spaceImages{
+        padding-bottom: 3px;
+    }
+
+
+}
+
+/* Responsive para Ordenadores desde 1024 pixeles  */
+@media ( min-width: 1024px ) {
+
+    body{
+        /* padding          : 0px;
+        margin           : 0px; */
+        /* background-color :#84A9ED ; */
+        /* background-image: linear-gradient(to right top, #006fff, #1970ed, #2b70db, #396fc8, #456eb5, #407aba, #4085bd, #458fbf, #36aad4, #2dc5e4, #3ce1ed, #5ffbf1); */
+        background-image  : url( ./img/fondo_3.jpg );
+        background-repeat : no-repeat;
+        background-size   : cover;
+    }
+
+    #atencion{
+        background              : rgba( 184, 233, 134, 0.25 );
+        box-shadow              : 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter         : blur( 1px );
+        -webkit-backdrop-filter : blur( 1px );
+        border                  : 1px solid rgba( 255, 255, 255, 0.18 );
+        width                   : 300px;
+        text-align              : center;
+        box-shadow              : 5px 5px 5px black;
+        border-radius           : 20px;
+        margin-top              : 150px;
+        margin-left             : 6%;
+
+    }
+
+    /* #ganaste{
+        display : fixed;
+        top     : 0px;
+        right   : 0px;
+    } */
+
+    @font-face {
+        font-family  : miPrueba;
+        src          : url( ./fonts/Shantell_Sans/static/ShantellSans-Bold.ttf );
+        margin-top   : 1px;
+    }
+
+    h1{
+        font-size   : 70px;
+        font-family : miPrueba;
+    }
+
+    h1 #bienvenido{
+        color                     :black;
+        animation-name            : welcomeAnimated;
+        animation-duration        : 6s;
+        animation-iteration-count : infinite;
+        font-size                 : 80px;
+    }
+
+    @keyframes welcomeAnimated {
+        0%   { color: black   }
+        25%  { color: #598EE5 }
+        50%  { color: #7559E5 }
+        75%  { color: #EE5DA9 }
+        80%  { color: brown }
+        100% { color: black   }
+    }
+
+    p{
+        font-family : miPrueba;
+    }
+
+
+    .header {
+        margin-top  : -80px;
+        font-family : miPrueba;
+    }
+
+    #contenedor{
+        display         : flex;
+        justify-content : center;
+        align-items     : center;
+        text-align      : center;
+        flex-direction  : column;
+        margin-top      : -250px;
+    }
+
+    #text-bottom{
+        margin: -10px;
+    }
+
+    #letter{
+        border-radius : 10px;
+        box-shadow    : 5px 5px 5px black;
+        text-align    : center;
+    }
+
+    #btn-check{
+        margin-top    : 20px;
+    }
+
+    #output, #img-column {
+        display         : flex;
+        flex-direction  : row;
+        justify-content : center;
+        margin          : 1px;
+    }
+
+
+    /* Podré quitar oportunamente las lineas negras */
+    #image{
+        background               : rgba( 106, 216, 255, 0.25 );
+        border                   : 1px solid black;
+        border-radius            : 20px;
+        box-shadow               : 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter          : blur( 1px );
+        -webkit-backdrop-filter  : blur( 1px );
+        box-shadow               : 5px 5px 5px black;
+        width                    : 280px;
+        height                   : 400px;
+        padding-top              : 5px;
+        margin-left              : -10px;
+        margin-right             : 0px;
+
+    }
+
+    #animalRevealed{
+        margin-top       : 0px;
+        font-size        : 25px;
+    }
+
+    .dibujito{
+
+        display    : flex;
+        align-self : center;
+        width      : 80px;
+        height     : 80px;
+        transition : 400ms ease-in;
+    }
+
+    .dibujito:hover {
+        width       : 120px;
+        height      : 150px;
+    }
+
+    .spaceImages{
+        padding-left: 5px;
+    }
+
+
+}
+
