@@ -7,7 +7,7 @@ window.onload = function(){
 
 }
 
-// Acá añado funciones al botón de Evaluar las letras
+// Aca añado funciones al botón de Evaluar las letras
 function prepareButtonCheck(){
     
     // Script que me permite reemplazar los guiones por letras existentes
