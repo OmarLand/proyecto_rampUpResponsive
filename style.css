@@ -457,7 +457,7 @@
         display    : flex;
         align-self : center;
         width      : 80px;
-        height     : 80px;
+        height     : 100px;
         transition : 400ms ease-in;
     }
 
