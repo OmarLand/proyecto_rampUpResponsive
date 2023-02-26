@@ -456,7 +456,7 @@
 
         display    : flex;
         align-self : center;
-        width      : 80px;
+        width      : 81px;
         height     : 100px;
         transition : 400ms ease-in;
     }
